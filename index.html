@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aditya Gupta-Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  </head>
+  <body>
+<!--Page Loader start-->
+<div class="page-loader hidden">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<!--Page Loader end-->
+<!--Effect Start-->
+<div class="bg-circles">
+<div class="circle-1"></div>
+<div class="circle-2"></div>
+<div class="circle-3"></div>
+<div class="circle-4"></div>
+</div>
+<!--Effect End-->
+
+
+
+
+      <!--Main Start-->
+      <!--Home Start-->
+          
+        <div class="main">
+            <!--Header Start-->
+            <header class="header">
+                <div class="container">
+                    <div class="row flex-end" >
+                        <button type="button" onclick="toggleNavbar()" class="nav-toggler"><span></span></button>
+                        <div class="nav">
+                            <div class="nav-inner">
+                                <ul>
+                                    <li><a href="#homeSection" onclick="hideHeader()" class="nav-item">Home</a></li>
+                                    <li><a href="#aboutSection" onclick="hideHeader()" class="nav-item">About</a></li>
+                                    <li><a href="#portfolioSection" onclick="hideHeader()" class="nav-item">Portfolio</a></li>
+                                    <li><a href="#contactSection" onclick="hideHeader()"class="nav-item">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--Header end-->
+  
+           <div class="allSection">
+              <section class="home-section align-item-center" id="homeSection">
+                  <div class="container">
+                      <div class="row align-item-center">
+                          <div class="home-text">
+                              <p>Hello, I'm</p>
+                              <h1>Aditya Gupta</h1>
+                              <h2>I'm <span class="auto-input"></span></h2>
+                              <a href="#aboutSection" class="btn">more about me</a>
+                              <a href="#portfolioSection" class="btn">portfolio</a>
+                          </div>
+                          <div class="home-img">
+                              <div class="img-box">
+                                  <img src="image/profilepic.png" alt="profile-pic">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+               <!--Home End-->
+     
+               <!--About Section Start-->
+     
+     
+               <section class="about-section sec-padding active" id="aboutSection">
+                   <div class="container">
+                       <div class="row">
+                           <div class="section-title">
+                               <h2><span class="about-auto-input"></span></h2>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="about-img">
+                               <div class="img-box">
+                                   <img src="image/aboutPic.jpeg" alt="pic">
+                               </div>
+                           </div>
+                           <div class="about-text">
+                               <p>I am enthusiastic engineer who is a self-starter and capable to use technical skills for the betterment of the organisation. 
+                                   Looking forward to work in a competitive environment that enhances overall learning.</p>
+                                   <h3>skills</h3>
+                                   <div class="skills">
+                                       <div class="skill-item">Java</div>
+                                       <div class="skill-item">Docker</div>
+                                       <div class="skill-item">AWS</div>
+                                       <div class="skill-item">Angular</div>
+                                       <div class="skill-item">My-sql</div>
+                                       <div class="skill-item">Spring-boot</div>
+                                       <div class="skill-item">C++</div>
+                                       <div class="skill-item">Machine learning(basic)</div>
+                                   </div>
+                                   <div class="about-tabs">
+                                       <button type="button" data-target="#education" class="tab-item active">education</button>
+                                       <button type="button" data-target="#experience" class="tab-item">experience</button>
+                                   </div>
+                                   <!--education Start-->
+                                   <div class="tab-content active" id="education">
+                                       <div class="timeline">
+                                           <div class="timeline-item">
+                                               <span class="date">2017-2021</span>
+                                               <h4>Bachelor of Technology <span>(AKGEC Ghaziabad)</span></h4>
+                                               <p>I have completed my graduation in Information Technology.</br>
+                                             I have secured 7.91 CGPA</p>
+                                           </div>
+                                           <div class="timeline-item">
+                                             <span class="date">2015-2016</span>
+                                             <h4>12th <span>(Children College Azamgarh)</span></h4>
+                                             <p>I have secured 89.25%.</p>
+                                         </div>
+                                         <div class="timeline-item">
+                                             <span class="date">2013-2014</span>
+                                             <h4>10th <span>(Children College Azamgarh)</span></h4>
+                                             <p>I have secured 84.25%.</p>
+                                         </div>
+                                       </div>
+                                   </div>
+                                   <!--education End-->
+     
+                                      <!--Experience Start-->
+                                      <div class="tab-content" id="experience">
+                                         <div class="timeline">
+                                             <div class="timeline-item">
+                                                 <span class="date">2021-Present</span>
+                                                 <h4>Software Engineer <span>(Newgen Software Noida)</span></h4>
+                                                 <p>Working as developer for multiple modules in a banking domain project</br>
+                                                     Worked in Java, EJB, Angular and Oracle 12c</br>
+                                                     Implementing end to end coding and providing defect support</p>
+                                             </div>
+                                             
+                                         </div>
+                                     </div>
+                                     <!--experience End-->
+                                     <a href="https://drive.google.com/file/d/1utMcrUHcifturkCxwUqnFFBV7PixVCfb/view?usp=sharing" class="btn" download>download cv</a>
+                                     <a href="#contactSection" class="btn">Contact me</a>
+                           </div>
+                       </div>
+                   </div>
+               </section>
+               <!--About Section End-->
+     
+               <!--Portfolio Section End-->
+               <section class="portfolio-section sec-padding active" id="portfolioSection">
+                   <div class="container">
+                       <div class="row">
+                           <div class="section-title">
+                               <h2><span class="portfolio-auto-input"></span></h2>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <!--Portfolio Item start-->
+                           <div class="portfolio-item">
+                               <div class="portfolio-item-thumbnail">
+                                   <img src="image/stockPredicition.png" alt="">
+                               </div>
+                               <h3 class="porfolio-item-title">Stock Price Prediction WebApp</h3>
+                               <button class="btn view-project-btn">view project</button>
+                               <div class="portfolio-item-details">
+                                   <div class="decription">
+                                       <p>In this project we have used LSTM Model to predict future stock price based on previous data available.</p>
+                                   </div>
+                                   <div class="general-info">
+                                       <ul>
+                                           <li>Created - <span>FEB-2021</span></li>
+                                           <li>Technology Used - <span>Python, sklearn,tensorFlow</span></li>
+                                           <li>Role - <span>Frontend, Backend</span></li>
+                                           <li>Project Github link  - <span><a href="https://github.com/lucifer0604/Stock-price-Prediction-Webapp/tree/V1">Stock Price Prediction Webapp</a></span></li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+     
+                           <div class="portfolio-item">
+                             <div class="portfolio-item-thumbnail">
+                                 <img src="image/employee.png" alt="">
+                             </div>
+                             <h3 class="porfolio-item-title">Employee Management App</h3>
+                             <button class="btn view-project-btn">view project</button>
+                             <div class="portfolio-item-details">
+                                 <div class="decription">
+                                     <p>A simpe implementation of rest Api using spring boot</p>
+                                 </div>
+                                 <div class="general-info">
+                                     <ul>
+                                         <li>Created - <span>August-2021</span></li>
+                                         <li>Technology Used - <span>Spring-Boot,My-sql</span></li>
+                                         <li>Role - <span>Frontend, Backend</span></li>
+                                         <li>Project Github link  - <span><a href="https://github.com/lucifer0604/employee-manager-app">Employee Management App</a></span></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+     
+                         <div class="portfolio-item">
+                             <div class="portfolio-item-thumbnail">
+                                 <img src="image/myportfolio.png" alt="">
+                             </div>
+                             <h3 class="porfolio-item-title">My Porfolio</h3>
+                             <button class="btn view-project-btn">view project</button>
+                             <div class="portfolio-item-details">
+                                 <div class="decription">
+                                     <p>A simple single page website</p>
+                                 </div>
+                                 <div class="general-info">
+                                     <ul>
+                                         <li>Created - <span>December-2021</span></li>
+                                         <li>Technology Used - <span>HTML,CSS,Javascript</span></li>
+                                         <li>Role - <span>Frontend, Backend</span></li>
+                                         <li>Project Github link  - <span><a href="">Portfolio</a></span></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+     
+                           
+                           
+                           <!--Portfolio Item end-->
+                       </div>
+                   </div>
+               </section>
+               <!--Portfolio Section End-->
+     
+     
+               <!--Contact Section start-->
+               <section class="contact-section sec-padding active" id="contactSection">
+                 <div class="container">
+                     <div class="row">
+                         <div class="section-title">
+                             <h2><span class="contact-auto-input"></span></h2>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="contact-form">
+                             <form>
+                                 <div class="row">
+                                     <div class="input-group">
+                                         <input type="text" placeholder="Name" class="input-control" required>
+                                     </div>
+                                     <div class="input-group">
+                                         <input type="text" placeholder="Email" class="input-control" required>
+                                     </div>
+                                     <div class="input-group">
+                                         <input type="text" placeholder="Subject" class="input-control" required>
+                                     </div>
+                                     <div class="input-group">
+                                         <textarea placeholder="Message" class="input-control"></textarea>
+                                     </div>
+                                     <div class="submit-btn">
+                                         <button type="submit" class="btn">send message</button>
+                                     </div>
+                                 </div>
+                             </form>
+                         </div>
+                         <div class="contact-info">
+                             <div class="contact-info-item">
+                                 <h3>Email</h3>
+                                 <p>adityag608@gmail.com</p>
+                             </div>
+                             <div class="contact-info-item">
+                                 <h3>Phone</h3>
+                                 <p>+91 9582953690</p>
+                             </div>
+                             <div class="contact-info-item">
+                                 <h3>follow me</h3>
+                                 <div class="social-links">
+                                     <a href="https://www.linkedin.com/in/aditya-gupta-054aa0171"><i class="fab fa-linkedin"></i></a>
+                                     <a href="https://github.com/lucifer0604"><i class="fab fa-github"></i></a>
+                                     <a href="https://www.instagram.com/boy___dreaming_/"><i class="fab fa-instagram"></i></a>
+                                     <a href="https://www.facebook.com/profile.php?id=100007691925072"><i class="fab fa-facebook"></i></a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </section>
+             <!--Contact Section End-->
+     
+           </div>
+  
+        </div>
+     
+      <!--Main End-->
+      <div class="porfolio-popup">
+          <div class="pp-inner">
+              <div class="pp-content">
+                  <div class="pp-header">
+                      <button class="btn pp-close"><i class="fas fa-times"></i></button>
+                      <div class="pp-thumbnail">
+                          <img src="image/stockPredicition.png" alt="">
+                      </div>
+                      <h3>Stock Price Prediction WebApp</h3>
+                  </div>
+                  <div class="pp-body">
+                        <div class="decription">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nostrum odit porro qui n</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>azqee</span></li>
+                                <li>Technology Used - <span>azqee</span></li>
+                                <li>Role - <span>azqee</span></li>
+                                <li>Project Github link  - <span><a href="">hello</a></span></li>
+                            </ul>
+                        </div>
+                  </div>
+              </div>
+          </div>
+
+    </div>
+      <!--Porfolio popup-->
+
+
+	<script src="js/index.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed=new Typed(".auto-input",
+     {
+    strings:["Web Developer","Java Developer"],
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true
+    })
+    var aboutTyped=new Typed(".about-auto-input",
+     {
+    strings:["About Me",],
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true
+    })
+    var portfoliotyped=new Typed(".portfolio-auto-input",
+     {
+    strings:["Recent Work"],
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true
+    })
+    var contactType=new Typed(".contact-auto-input",
+     {
+    strings:["Contact Me"],
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true
+    })
+    </script>
+  </body>
+</html>
